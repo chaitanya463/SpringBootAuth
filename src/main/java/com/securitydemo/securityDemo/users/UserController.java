@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "api/v1/users")
+@RequestMapping("api/v1/users")
 public class UserController {
 
     private static final List<User> users = Arrays.asList(
